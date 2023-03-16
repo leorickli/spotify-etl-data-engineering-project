@@ -4,6 +4,10 @@
 
 This is an ETL project using the Spotify API to get the daily top 50 global songs in the app. This project will use the AWS cloud tools to extract the file from a Jupyter notebook using Python to process into an S3 bucket, separating data between artist, album and songs into another S3 bucket. Finally, it's going to load the data into AWS Athena for analysis using AWS Glue.
 
+### Architecture
+
+<img width="1163" alt="Screenshot 2023-03-16 at 15 17 22" src="https://user-images.githubusercontent.com/106999054/225715782-6e6165d1-8480-4a77-a0d1-e7fd693421d2.png">
+
 ### Steps
 
 - Use the Spotipy API to extract data from Spotify using a Jupyter Notebook to make the ETL (Extract, Transform, Load) in a local machine
